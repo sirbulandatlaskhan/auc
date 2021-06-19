@@ -18,11 +18,6 @@ module.exports = {
       white: '#FFFFFF',
       darkGrey: '#5C6B80'
     },
-    backgroundImage: theme => ({
-      'steps-1': 'url("../../assets/images/steps-1.jpg")',
-      'steps-2': 'url("../../assets/images/steps-2.jpg")',
-      'steps-3': 'url("../../assets/images/steps-3.jpg")'
-    }),
     extend: {},
   },
   variants: {
