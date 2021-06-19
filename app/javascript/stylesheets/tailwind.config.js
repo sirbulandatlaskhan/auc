@@ -18,7 +18,16 @@ module.exports = {
       white: '#FFFFFF',
       darkGrey: '#5C6B80'
     },
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'steps-1': 'url("../../assets/images/steps-1.svg")',
+        'steps-2': 'url("../../assets/images/steps-2.svg")',
+        'steps-3': 'url("../../assets/images/steps-3.svg")',
+      }),
+      spacing: {
+        '92': '22rem'
+      }
+    },
   },
   variants: {
     extend: {},
