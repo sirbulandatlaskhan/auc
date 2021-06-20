@@ -16,7 +16,6 @@
   }
 }
 .header {
-  margin-bottom: 64px;
   a {
     color: white;
   }
@@ -34,4 +33,31 @@
   a {
     color: #1B9AD6;
   }
+}
+.c-card {
+  img {    
+    transition: transform .3s ease-in-out; 
+  }
+  
+  &:hover {
+    img {
+      transform: scale(1.05)
+    }
+  }
+}
+#owl-demo .item{
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+a:hover {
+  background-color: none;
+}
+a {
+  color: white;
 }
