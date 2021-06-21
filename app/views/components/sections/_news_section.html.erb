@@ -1,16 +1,16 @@
-<div>
-  <h1>Latest News</h1>
+<div class="mt-28 mb-24">
+  <h2 class="block mb-12 flex justify-center text-4xl font-bold text-black">Latest News</h2>
   <div class="news_section my-6 mx-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-    <div class="border border-black bg-white">
+    <div class="blue-border bg-white">
       <%= image_tag "news_1.jpg", :class => 'w-full' %>
       <div class='px-8 py-7'>
-        <div class='md:w-aut leading-7'>
-          <a class="font-semibold flex mb-5 underline text-blue-600 leading-none text-lg mt-1 capitalize text-left">
+        <div class='md:w-aut'>
+          <h4 class="font-semibold flex mb-5 underline text-clr-blue text-base mt-1 text-left">
             Is it better to flip houses or buy and hold rental properties?
-          </a>
+          </h4>
           <p class='mb-5'>02 March, 2020</p>
         </div>
-        <div class='border border-border mb-5'></div>
+        <div class='gray-border mb-5'></div>
         <div class="max-w-full">
           <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
             Over the last 17 years, I have flipped 150 houses and purchased 20 rental investment properties. I have also been a real estate agent, broker, and employing...
@@ -20,17 +20,17 @@
 
     </div>
 
-    <div class="border border-black bg-white">
+    <div class="blue-border bg-white">
       <%= image_tag "news_2.jpg", :class => 'w-full' %>
 
       <div class='px-5 py-5'>
-        <div class='md:w-aut leading-7'>
-          <a class="font-semibold flex mb-5 underline text-blue-600 leading-none text-lg mt-1 capitalize text-left">
+        <div class='md:w-aut'>
+          <h4 class="font-semibold flex mb-5 underline text-clr-blue text-base mt-1 text-left">
             Buying property in Italy as a foreigner
-          </a>
+          </h4>
           <p class='mb-5'>04 March, 2020</p>
         </div>
-        <div class='border border-border mb-5'></div>
+        <div class='gray-border mb-5'></div>
         <div class="max-w-full">
           <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
             Whether you’re thinking of buying property in Rome, Milan, Naples or anywhere in between, you’re likely to be greeted with a plethora of housing styles, ages and levels of upkeep...
@@ -39,16 +39,16 @@
       </div>
     </div>
 
-    <div class="border border-black bg-white">
+    <div class="blue-border bg-white">
       <%= image_tag "news_3.jpg", :class => 'w-full' %>
       <div class='px-5 py-5'>
-        <div class='md:w-aut leading-7'>
-          <a class="font-semibold flex mb-5 underline text-blue-600 leading-none text-lg mt-1 capitalize text-left">
+        <div class='md:w-aut'>
+          <a class="font-semibold flex mb-5 underline text-clr-blue text-base mt-1 text-left">
             A 2019 Preview of the Italian Property Market
           </a>
           <p class='mb-5'>12 March, 2020</p>
         </div>
-        <div class='border border-border mb-5'></div>
+        <div class='gray-border mb-5'></div>
         <div class="max-w-full">
           <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
             Some people will buy in Italy, whatever the state of the market might be. However, like any nation, the country’s trade in property is affected by political unstability...
@@ -56,8 +56,9 @@
         </div>
       </div>
     </div>
-    <button>
-      View All
-    </button>
   </div>
+  <button class='primary bg-blue-child py-3.5 text-white text-base px-7 hover:outline-none mt-12 m-0-auto flex justify-center'>
+    View All
+    <%= image_tag 'left-arrow.svg', :class => 'ml-2 mt-1.5' %>
+  </button>
 </div>
