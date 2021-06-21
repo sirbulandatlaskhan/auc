@@ -1,0 +1,45 @@
+.offer-section {
+  width: 1500px;
+  gap: 25px;
+}
+
+.text-clr-blue {
+  color: #1B9AD6;
+}
+
+.blue-border {
+  border: solid 1px #D6D6D6;
+}
+
+.gray-border {
+  border: 1px solid #D6D6D6
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.register-btn-sec {
+  display: -webkit-box;
+  margin-top: 30px;
+  @media (max-width: 767px) {
+    display: flex
+  }
+}
+
+.are-you-agent {
+  top: 12px;
+  position: relative;
+}
+
+.font-sharp {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// a {
+//   text-decoration: none;
+// }
+a:hover {
+  background: transparent;
+}
