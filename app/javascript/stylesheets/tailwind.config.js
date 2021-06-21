@@ -8,6 +8,13 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
+    screens: {
+      'sm': '576px',
+      'md': '900px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px'
+    },
     colors: {
       ...colors,
       blue: "#1A3050",
@@ -35,6 +42,7 @@ module.exports = {
         '92': '22rem',
         '100': '30rem',
         '18': '4.5rem',
+        '4/7': '70%'
       }
     },
   },
