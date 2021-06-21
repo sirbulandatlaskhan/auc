@@ -22,6 +22,7 @@ document.addEventListener("turbolinks:load", function() {
     navigation: true,
     nav:true,
     responsive: true,
+    navClass: ['owl-prev', 'owl-next'],
     responsive:{
       0:{
         items:1,
@@ -36,6 +37,8 @@ document.addEventListener("turbolinks:load", function() {
         nav:true,
         loop:false
       }
-  }
+    }
   });
- });
+});
+$( ".owl-next").html('<img src="https://d1ycj7j4cqq4r8.cloudfront.net/bbb447994b253bea1bb81b002e3413b2.svg" />');
+$( ".owl-prev").html('<img src="https://d1ycj7j4cqq4r8.cloudfront.net/20bd4ea61b53e89f4d8c6531d59f19ab.svg" />');

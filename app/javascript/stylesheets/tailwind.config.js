@@ -1,3 +1,4 @@
+const { colors } = require('./tailwind')
 module.exports = {
   purge: [
     "./app/**/*.html.erb",
@@ -5,9 +6,10 @@ module.exports = {
     "./app/javascript/**/*.js",
     "./app/javascript/**/*.vue",
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     colors: {
+      ...colors,
       blue: "#1A3050",
       'blue-hover': '#293F5E',
       'blue-child': '#1B9AD6',
@@ -23,9 +25,12 @@ module.exports = {
         'steps-1': 'url("../../assets/images/steps-1.svg")',
         'steps-2': 'url("../../assets/images/steps-2.svg")',
         'steps-3': 'url("../../assets/images/steps-3.svg")',
+        'offers': 'url("../../assets/images/offers.jpg")'
       }),
       spacing: {
-        '92': '22rem'
+        '92': '22rem',
+        '100': '30rem',
+        '18': '4.5rem',
       }
     },
   },
