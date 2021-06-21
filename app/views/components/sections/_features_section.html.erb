@@ -3,30 +3,30 @@
   <div class="mx-auto carousel-wrap">
     <div class="flex flex-wrap -mx-4 owl-carousel owl-theme">
       <div class="item p-4">
-        <a href="#feature" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg hover:bg-transparent overflow-hidden hover:text-black">
+        <a href="#feature" class="c-card block bg-white gray-border hover:shadow-xl hover:bg-transparent overflow-hidden hover:text-black">
           <div class="relative pb-48 overflow-hidden">
-            <%= image_tag "bookmark.svg" %>
+            <%= image_tag "bookmark.svg", :class => 'absolute top-2.5 left-2.5 z-10', :style => 'width: auto;' %>
             <%= image_tag "feature-1.jpg", :class => 'absolute inset-0 h-full w-full object-cover' %>
-            <div></div>
           </div>
-          <div class="p-4 block">
+          <div class='flex justify-center py-5 bg-blue-child text-white'>AVIABLE TO BUY NOW</div>
+          <div class="px-8 py-4">
             <h2 class="mt-2 mb-4 font-black text-black text-lg">5 bedroom town house in Tuscany</h2>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class="my-4 block text-lg items-center">
               <span class='flex'>
                 <%= image_tag "wallet.svg", :class => 'mr-3', :style => 'width: auto;' %>
                 Price:&nbsp;
-                <span class='text-blue-child whitespace-nowrap'> € 1.900.000</span>
+                <span class='text-blue-child'> € 1.900.000</span>
               </span>
             </div>
             <div class="my-4 block text-lg items-center">
               <span class='flex'>
                 <%= image_tag "clock.svg", :class => 'mr-3', :style => 'width: auto;' %>
                 Ends:&nbsp;
-                <span class='text-blue-child whitespace-nowrap'>Fri, 04 Jun 2021 - 00:00</span>
+                <span class='text-blue-child'>Fri, 04 Jun 2021 - 00:00</span>
               </span>
             </div>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class='flex my-4'>
               <div class='inline-flex items-center text-lg mr-5 whitespace-nowrap '>
                 <%= image_tag "plans.svg", :class => 'mr-3' %>
@@ -45,13 +45,15 @@
         </a>
       </div>
       <div class="item p-4">
-        <a href="#feature" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg hover:bg-transparent overflow-hidden hover:text-black">
+        <a href="#feature" class="c-card block bg-white gray-border hover:shadow-xl hover:bg-transparent overflow-hidden hover:text-black">
           <div class="relative pb-48 overflow-hidden">
+            <%= image_tag "bookmark.svg", :class => 'absolute top-2.5 left-2.5 z-10', :style => 'width: auto;' %>
             <%= image_tag "feature-2.jpg", :class => 'absolute inset-0 h-full w-full object-cover' %>
           </div>
-          <div class="p-4">
+          <div class='flex justify-center py-5 bg-white leading-4 text-xs border border-blue-child text-blue-child'>LISTING</div>
+          <div class="px-8 py-4">
             <h2 class="mt-2 mb-4 font-black text-black text-lg">Old hayloft on the Chianti hills</h2>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class="my-4 block text-lg items-center">
               <span class='flex'>
                 <%= image_tag "compass.svg", :class => 'mr-3', :style => 'width: auto;' %>
@@ -62,7 +64,7 @@
             <div class="my-4 block text-lg font-black items-center">
               Property listed for sale
             </div>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class='flex my-4'>
               <div class='inline-flex items-center text-lg mr-5 whitespace-nowrap '>
                 <%= image_tag "plans.svg", :class => 'mr-3' %>
@@ -81,24 +83,26 @@
         </a>
       </div>
       <div class="item p-4">
-        <a href="#feature" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg hover:bg-transparent overflow-hidden hover:text-black">
+        <a href="#feature" class="c-card block bg-white gray-border hover:shadow-xl hover:bg-transparent overflow-hidden hover:text-black">
           <div class="relative pb-48 overflow-hidden">
+            <%= image_tag "bookmark.svg", :class => 'absolute top-2.5 left-2.5 z-10', :style => 'width: auto;' %>
             <%= image_tag "feature-3.jpg", :class => 'absolute inset-0 h-full w-full object-cover' %>
           </div>
-          <div class="p-4">
+          <div class='flex justify-center py-5 bg-white leading-4 text-xs border border-darkGreen text-darkGreen bg-lightGreen'>AUCTION RUNNING</div>
+          <div class="px-8 py-4">
             <h2 class="mt-2 mb-4 font-black text-black text-lg">6 bedroom farm house</h2>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class="my-4 block text-lg items-center">
               <span class='flex'>
                 <%= image_tag "wallet.svg", :class => 'mr-3', :style => 'width: auto;' %>
                 Ends:&nbsp;
-                <span class='text-blue-child whitespace-nowrap'>Fri, 04 Jun 2021 - 16:00</span>
+                <span class='text-blue-child'>Fri, 04 Jun 2021 - 16:00</span>
               </span>
             </div>
             <div class="my-4 font-black block text-lg items-center">
               Open for bids
             </div>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class='flex my-4'>
               <div class='inline-flex items-center text-lg mr-5 whitespace-nowrap '>
                 <%= image_tag "plans.svg", :class => 'mr-3' %>
@@ -117,24 +121,26 @@
         </a>
       </div>
       <div class="item p-4">
-        <a href="#feature" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg hover:bg-transparent overflow-hidden hover:text-black">
+        <a href="#feature" class="c-card block bg-white gray-border hover:shadow-xl hover:bg-transparent overflow-hidden hover:text-black">
           <div class="relative pb-48 overflow-hidden">
+            <%= image_tag "bookmark.svg", :class => 'absolute top-2.5 left-2.5 z-10', :style => 'width: auto;' %>
             <%= image_tag "feature-4.jpg", :class => 'absolute inset-0 h-full w-full object-cover' %>
           </div>
-          <div class="p-4">
+          <div class='flex justify-center py-5 bg-white leading-4 text-xs border border-darkRed text-darkRed bg-lightRed'>AUCTION ENDED</div>
+          <div class="px-8 py-4">
             <h2 class="mt-2 mb-4 font-black text-black text-lg">567903 Villa, Monte Carru</h2>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class="my-4 block text-lg items-center">
               <span class='flex'>
                 <%= image_tag "wallet.svg", :class => 'mr-3', :style => 'width: auto;' %>
                 Ended:&nbsp;
-                <span class='text-blue-child whitespace-nowrap'>Wed, 14 Apr 2021 - 15:00</span>
+                <span class='text-blue-child'>Wed, 14 Apr 2021 - 15:00</span>
               </span>
             </div>
-            <div class="my-4 block text-lg items-center">
+            <div class="my-4 block text-lg font-black items-center">
               Auction closed
             </div>
-            <div class='border border-border border-b-0'></div>
+            <div class='gray-border border-b-0'></div>
             <div class='flex my-4'>
               <div class='inline-flex items-center text-lg mr-5 whitespace-nowrap'>
                 <%= image_tag "plans.svg", :class => 'mr-3' %>

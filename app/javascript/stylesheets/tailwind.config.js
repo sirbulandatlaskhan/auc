@@ -18,7 +18,11 @@ module.exports = {
       'border': '#C4C4C4',
       lightBlue: '#293F5E',
       white: '#FFFFFF',
-      darkGrey: '#5C6B80'
+      darkGrey: '#5C6B80',
+      lightGreen: '#C6F6D5',
+      darkGreen: '#3A8D63',
+      darkRed: '#DF0000',
+      lightRed: 'rgba(223, 0, 0, 0.1)',
     },
     extend: {
       backgroundImage: theme => ({
